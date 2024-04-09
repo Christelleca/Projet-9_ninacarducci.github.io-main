@@ -11,7 +11,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    display: flex;
+
     justify-content: space-between;
     padding-inline: 100px;
     padding-block: 30px;
@@ -178,7 +178,9 @@ form input {
     padding-inline: 100px;
     padding-block: 100px;
 }
-#contact .container {
+#contact .container,
+form,
+.top-header {
     display: flex;
 }
 .picture.right::before {
@@ -191,16 +193,13 @@ form input {
     right: 0;
     z-index: -1;
 }
-
 form {
-    display: flex;
     flex-direction: column;
     width: 70%;
     align-items: flex-start;
 }
 form input {
     height: 2.5em;
-    margin-bottom: 20px;
 }
 form textarea,
 form input {
