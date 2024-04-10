@@ -58,11 +58,15 @@ body {
     margin: 0 20px;
     z-index: 0;
 }
-.picture img,
+
 .gallery-item,
 form textarea,
 form input {
     width: 100%;
+}
+.picture img {
+    width: 100%;
+    height: auto;
 }
 #about-me,
 .form-container {
