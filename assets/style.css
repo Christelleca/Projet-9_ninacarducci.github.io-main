@@ -35,7 +35,6 @@ body {
 }
 .social-link img {
     width: 20px;
-    height: auto;
 }
 #about {
     display: flex;
@@ -64,7 +63,6 @@ body {
 form textarea,
 form input {
     width: 100%;
-    height: auto;
 }
 #about-me,
 .form-container {
